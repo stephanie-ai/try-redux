@@ -16,22 +16,18 @@ img {
     grid-column: 1 / -1;
 }
 
-.like-btn, .delete-btn {
+.like-btn {
     font-size: 10vw;
     width: 100%;
     text-align: center;
 }
 
-.like-btn:hover, .delete-btn:hover, #refresh {
+.like-btn:hover, #refresh {
     cursor: pointer;
 }
 
 #refresh:hover {
     color: green;
-}
-
-.delete-btn:hover {
-    color: red;
 }
 
 @media screen and (min-width: 700px){
@@ -45,7 +41,7 @@ img {
         height: 30vw;
     }
 
-    .like-btn, .delete-btn {
+    .like-btn {
         font-size: 3vw;
     }
 }
