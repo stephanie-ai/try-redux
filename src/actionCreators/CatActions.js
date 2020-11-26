@@ -25,3 +25,5 @@ export const fetchCats = () => {
 };
 
 // https://api.thecatapi.com/v1/images/search
+
+// https://github.com/AdenForshaw/theCatApi-examples/blob/master/vue/basic-search.html

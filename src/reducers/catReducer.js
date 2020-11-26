@@ -15,7 +15,7 @@ function catReducer ( state = initState, action) {
             const catToLike = state.allCats.find(d => d.id === action.payload);
             indx = state.allCats.indexOf(catToLike)
             const updatedCat = [
-                ...state.allCatsslice(0, indx),
+                ...state.allCats.slice(0, indx),
                 { ...catToLike, liked: !catToLike.liked},
                 ...state.allCats.slice(indx+1)
             ]

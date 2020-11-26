@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { LikeButton } from '../LikeButton';
+import { LikeButton } from '..';
 import { toggleLikeCat } from '../../actionCreators/CatActions';
 
 class CatCard extends Component {
@@ -16,7 +16,7 @@ class CatCard extends Component {
                 <img src={img} />
                 <LikeButton liked={liked} handleClick={() => this.handleToggleLike(id)}/>
             </div>
-        )
+        );
     }
 }
 
